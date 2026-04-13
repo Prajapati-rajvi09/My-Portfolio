@@ -613,16 +613,23 @@ footer {
 
 /* Responsive */
 @media (max-width: 900px) {
+    .section {
+        padding: 60px 0;
+    }
     .hero {
         flex-direction: column-reverse;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        min-height: auto;
+        gap: 30px;
     }
     .hero-cta {
         justify-content: center;
     }
     .about-grid, .timeline-grid {
         flex-direction: column;
+        gap: 30px;
     }
     .hero-title {
         font-size: 3rem;
